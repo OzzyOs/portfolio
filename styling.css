@@ -1,0 +1,30 @@
+body {
+    background-color: #0E1116;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about {
+    border-width: 1px 1px 1px 1px;
+    border-block: solid;
+    border-color: antiquewhite;
+}
+p {
+    color: #E6EAF0;
+}
+
+h1 {
+    color: #E6EAF0;
+}
+
+h2 {
+    color: #A7B0BE;
+}
+
+h3 {
+    color: #A7B0BE;
+}
+
