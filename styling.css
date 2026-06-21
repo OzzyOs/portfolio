@@ -163,11 +163,16 @@ nav a:hover {
     transition: 0.3s;
 }
 
+.project-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .project-card:hover {
     transform: translateY(-5px);
 
     box-shadow:
-            0 0 20px rgba(59, 130, 246, 0.3);
+            0 0 20px rgba(0, 150, 0, 0.3);
 }
 
 .project-card h3 {
