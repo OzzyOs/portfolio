@@ -38,16 +38,25 @@ nav {
 .nav-container {
     max-width: 1200px;
     margin: auto;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 1rem 2rem;
 }
 
 .logo {
-    color: var(--accent);
+    background: linear-gradient(
+            90deg,
+            #ff0000,
+            #8daed9,
+            #45b7d1,
+            #8daed9,
+            #ff0000
+    );
+    background-size: 500% 100%;
+    background-clip: text;
+    color: transparent;
+    animation: gradient-move 10s linear infinite;
 }
 
 nav ul {
@@ -235,6 +244,17 @@ footer {
     border-top: 1px solid #222;
 
     color: var(--secondary);
+}
+
+/* GRADIENT KEYFRAMES*/
+
+@keyframes gradient-move {
+    from {
+        background-position: 0% 50%;
+    }
+    to {
+        background-position: 100% 50%;
+    }
 }
 
 /* MOBILE */
