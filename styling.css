@@ -4,6 +4,8 @@
     --accent: #dedede;
     --text: #E6EAF0;
     --secondary: #00d732;
+    --tertiary: #71fd91;
+    --svg: #00d3ff;
 }
 
 * {
@@ -146,6 +148,7 @@ nav a:hover {
 #about p {
     max-width: 700px;
     font-size: larger;
+    margin-bottom: 2rem;
 }
 
 /* SKILLS */
@@ -162,14 +165,23 @@ nav a:hover {
     font-weight: bold;
     padding: 1rem 1.5rem;
     gap: 1rem;
-    /*border-radius: 10px;*/
+
     border: 1px solid #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 130px;
+    min-height: 120px;
+
+    color: var(--tertiary);
 }
 
 .skill img {
     width: 50px;
     height: 50px;
-    color: red;
+    object-fit: contain;
 }
 
 /* PROJECTS */
