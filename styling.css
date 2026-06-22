@@ -111,7 +111,7 @@ nav a:hover {
     text-decoration: none;
 
     padding: 1rem 2rem;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
 
     font-weight: bold;
 
@@ -121,6 +121,8 @@ nav a:hover {
 
 .btn:hover {
     transform: translateY(-5px);
+    box-shadow:
+            0 0 15px rgba(0, 150, 0, 0.3);
 }
 
 /* SECTIONS */
@@ -130,6 +132,8 @@ nav a:hover {
 
     margin: 4rem auto;
     padding: 2rem;
+
+    scroll-margin-top: 75px; /* When scrolling to this element, stop this many pixels before the top */
 }
 
 .section h2 {
@@ -155,10 +159,17 @@ nav a:hover {
 .skill {
     background: var(--card);
 
+    font-weight: bold;
     padding: 1rem 1.5rem;
-
-    border-radius: 10px;
+    gap: 1rem;
+    /*border-radius: 10px;*/
     border: 1px solid #222;
+}
+
+.skill img {
+    width: 50px;
+    height: 50px;
+    color: red;
 }
 
 /* PROJECTS */
@@ -177,7 +188,7 @@ nav a:hover {
 
     padding: 1.5rem;
 
-    border-radius: 15px;
+    /*border-radius: 15px;*/
 
     border: 1px solid #222;
 
@@ -215,7 +226,7 @@ nav a:hover {
 
     padding: 1.5rem;
 
-    border-radius: 15px;
+    /*border-radius: 15px;*/
 
     border: 1px solid #222;
 
