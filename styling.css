@@ -49,11 +49,11 @@ nav {
 .logo {
     background: linear-gradient(
             90deg,
-            #ff0000,
-            #8daed9,
-            #45b7d1,
-            #8daed9,
-            #ff0000
+            #00d732,
+            #71fd91,
+            #b2f6c0,
+            #71fd91,
+            #00d732
     );
     background-size: 500% 100%;
     background-clip: text;
@@ -102,10 +102,6 @@ nav a:hover {
     margin-bottom: 2rem;
 }
 
-/*.hero .open-to-work {*/
-/*    font-weight: bold;*/
-/*}*/
-
 .btn {
     background: var(--secondary);
     color: var(--card);
@@ -113,13 +109,11 @@ nav a:hover {
     text-decoration: none;
 
     padding: 1rem 2rem;
-    /*border-radius: 10px;*/
 
     font-weight: bold;
 
     transition: 0.3s;
 }
-
 
 .btn:hover {
     transform: translateY(-5px);
@@ -200,8 +194,6 @@ nav a:hover {
 
     padding: 1.5rem;
 
-    /*border-radius: 15px;*/
-
     border: 1px solid #222;
 
     transition: 0.3s;
@@ -237,8 +229,6 @@ nav a:hover {
     background: var(--card);
 
     padding: 1.5rem;
-
-    /*border-radius: 15px;*/
 
     border: 1px solid #222;
 
