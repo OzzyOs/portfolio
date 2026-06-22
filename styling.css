@@ -1,9 +1,9 @@
 :root {
     --bg: #0E1116;
     --card: #161B22;
-    --accent: #3B82F6;
+    --accent: #dedede;
     --text: #E6EAF0;
-    --secondary: #9CA3AF;
+    --secondary: #00d732;
 }
 
 * {
@@ -19,7 +19,7 @@ html {
 body {
     background-color: var(--bg);
     color: var(--text);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Geist, Arial, Helvetica, sans-serif;
     line-height: 1.6;
 }
 
@@ -66,7 +66,7 @@ nav ul {
 }
 
 nav a {
-    color: var(--text);
+    color: var(--secondary);
     text-decoration: none;
     transition: 0.3s;
 }
@@ -100,20 +100,27 @@ nav a:hover {
     margin-bottom: 2rem;
 }
 
+/*.hero .open-to-work {*/
+/*    font-weight: bold;*/
+/*}*/
+
 .btn {
-    background: var(--accent);
-    color: white;
+    background: var(--secondary);
+    color: var(--card);
 
     text-decoration: none;
 
     padding: 1rem 2rem;
     border-radius: 10px;
 
+    font-weight: bold;
+
     transition: 0.3s;
 }
 
+
 .btn:hover {
-    transform: translateY(-3px);
+    transform: translateY(-5px);
 }
 
 /* SECTIONS */
@@ -129,7 +136,12 @@ nav a:hover {
     font-size: 2rem;
     margin-bottom: 1.5rem;
 
-    color: var(--accent);
+    color: var(--secondary);
+}
+
+#about p {
+    max-width: 700px;
+    font-size: larger;
 }
 
 /* SKILLS */
