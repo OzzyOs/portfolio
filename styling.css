@@ -71,6 +71,7 @@ nav a {
     color: var(--secondary);
     text-decoration: none;
     transition: 0.3s;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -170,6 +171,15 @@ nav a:hover {
     min-height: 120px;
 
     color: var(--tertiary);
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+            0 0 20px rgba(0, 150, 0, 0.3);
+
+    transition: 0.3s;
 }
 
 .skill img {
