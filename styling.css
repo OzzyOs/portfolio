@@ -226,6 +226,12 @@ nav a:hover {
 .project-card h3 {
     margin-bottom: 1rem;
 }
+
+.call-to-action {
+    margin-bottom: 1rem;
+    color: var(--tertiary);
+}
+
 /* CAREER */
 
 .career-grid {
@@ -259,16 +265,34 @@ nav a:hover {
 
 /* CONTACT */
 
+
 .contact-links {
     margin-top: 1rem;
 
+
     display: flex;
-    gap: 1rem;
+    gap: 2.5rem;
 }
 
 .contact-links a {
     color: var(--accent);
     text-decoration: none;
+}
+
+.media-card {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1rem;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+
+    background-color: var(--card);
+
 }
 
 /* FOOTER */
